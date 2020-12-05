@@ -17,49 +17,23 @@ body{
     background-color: var(--white);
 }
 
-#main-title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 50px;
-    width: 100%;
-    background-color: var(--grey);
-    padding: 30px 0;
+/*Header Style */
+#header {
+    background-color: rgb(176, 236, 213);
 }
-
-#main-title h1{
-    width : auto;
-    color: var(--grey);
-    font-size: 30px;
-    background-color: var(--teal);
-    padding: 3px 3px 3px 50px;
+/*Name at top*/
+#name-title {
+    font-size: 25px;
+    color: #020502;
 }
 
 /*Links at top of the page, to navigate the page itself*/
-.title-links nav{
-    width:auto;
-    margin-right:75px;
-    margin-top: 20px;
-}
-
-.title-links li{
-    display: inline-block;
-    padding: 4px 5px;
-}
-
-.title-links a{
-    display: inline-block;
-    text-decoration: none;
-    color: var(--teal);
-    padding: 4px 5px;
-    border-bottom: 1px solid;
-    font-size: 15px;
-}
-
-/*Hover effect*/
-.title-links a:hover{
-    background-color: var(--teal);
-    color: var(--grey);
+/*Hover effect on top nav links*/
+#navbarNavAltMarkup a:hover{
+    color: var(--blue);
+    border: #76bfc0 2px;
+    border-style: solid;
+    font: bold;
     cursor: pointer;
 }
 
@@ -69,6 +43,7 @@ body{
     position: relative;
 }
 
+/*Background Image*/
 .sub-header{
     width: 100%;
     height: 200px;
@@ -91,8 +66,8 @@ body{
 main {
     display: flex;
     flex-direction: column;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin-left: 30px;
+    margin-right: 15px;
 }
 
 .main-container {
@@ -145,6 +120,12 @@ main h1 {
     opacity: 70%;
 }
 
+/*Card background */
+.card-body {
+    background: rgb(89,171,222);
+    background: linear-gradient(0deg, rgba(89,171,222,1) 8%, rgba(6,73,173,0.31807355182926833) 75%);
+}
+
 /* All cards description font size */
 .card p {
     font-size: 14px;
@@ -153,6 +134,16 @@ main h1 {
 /*Hover effect*/
 .card img:hover {
     opacity: 100%;
+}
+
+/*NOT READY BUTTON */
+#notRdy:hover {
+    background-color: red;
+}
+
+/*Deployed Links*/
+#ready:hover {
+    background-color: green;
 }
 
 /*placing title links on images*/
