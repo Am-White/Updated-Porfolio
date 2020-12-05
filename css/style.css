@@ -119,72 +119,39 @@ main h1 {
 
 /* -Work section- */
 /*Large image styling*/
-#large-img {
-    background-image: url(./assets/images/nasa-img.png);
-    background-position: center;
-    background-size: cover;
+.card-big {
+    display: flex;
     width: 100%;
-    height:200px;
-    border: var(--teal) solid 5px;
-    opacity: 70%;
 }
 
+
 /*Hover effect*/
-#large-img:hover  {
+.card-big img:hover  {
     opacity: 100%;
 }
 
 /*Styling of grid images*/
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     grid-gap: 10px;
     padding-top: 10px;
 }
 
-
-.image1 {
-    background-image: url(./assets/images/dayplanner-img.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:200px;
-    border: var(--teal) solid 5px;
+#card-grid {
+    width: 50%;
+}
+.card img {
     opacity: 70%;
 }
 
-.image2 {
-    background-image: url(./assets/images/password-img.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:200px;
-    border: var(--teal) solid 5px;
-    opacity: 70%;
-}
-
-.image3 {
-    background-image: url(./assets/images/bar-img.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:200px;
-    border: var(--teal) solid 5px;
-    opacity: 70%;
-}
-
-.image4 {
-    background-image: url(./assets/images/weather-img.png);
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height:200px;
-    border: var(--teal) solid 5px;
-    opacity: 70%;
+/* All cards description font size */
+.card p {
+    font-size: 14px;
 }
 
 /*Hover effect*/
-#small-imgs:hover {
+.card img:hover {
     opacity: 100%;
 }
 
