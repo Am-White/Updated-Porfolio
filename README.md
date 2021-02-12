@@ -1,51 +1,33 @@
-# Unit 08 Project 1 Homework: Professional Materials
+# Portfolio of Amethyst White<h1>
 
-Now that you've had some practice with APIs and have a project to share, you'll be updating your portfolio page and other materials to build toward being employer-competitive.
+## GOAL <h2>
+My goal on this project is to demonstrate my skills with building a website from scratch. Using CSS and HTML only I put together a blocked structure resembling a portfolio page
+  
+## ABOUT ME <h2>
+My name is Amethyst White, I am a young woman from Seattle, WA. I am new to computer coding and I am trying to make a career change to better my future. I love art, food and whiskey. Constructive criticism welcome.
+  
+## Link to Deployed Page ##
+ https://am-white.github.io/Portfolio/
 
-If you are opting out of career services, this is _still a required assignment_. Part of being a web developer means being a part of a community. Having a place to share your projects is _necessary_ if you're applying for jobs, but it's also _critical_ on your journey as a developer.
+## Thought Process <h2>
 
-## Requirements
-
-* Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
-
-* Submit an updated resume
-
-## Instructions
-
-1. [Updated Portfolio](#updated-portfolio)
-2. [GitHub Profile](#updated-github-profile)
-3. [Updated Resume](#updated-resume)
-4. [Updated LinkedIn](#updated-linkedin)
+**HTML** 
+* I started this project by placing all the proper sections of the example webpage into <div> categories
+* I thought to label each container in order to better organize my future CSS
+* I added links
+* And spaced all of my containers out within HTML to be more legible
 
 
-
-5. Have a polished, mobile-responsive user interface.
-
-### Design
-
-Unfortunately, this is where it gets a little bit subjective. Your site should look
-"polished." Here are a few guidelines on what that means:
-
-* Mobile-first design
-
-* Choose a color palette for your site so it doesn't just look like
-  the default bootstrap theme or an unstyled HTML site.
-
-* Make sure the font size is large enough to read, and that the colors don't cause eye strain.
+![alt text](https://github.com/Am-White/03-homwork/blob/main/assets/images/html.png)
 
 
 
-### ⭐ 5. For Job-Seeking Students (BONUS)
-
-If you are a job-seeking student, then getting yourself marked as employer-ready is an important step to take because you'll get:
-
-* added to our employer referral list, where we'll help match you with employers for interviews
-
-* exclusive access to workshops for employer-ready students
-
-* a statistically higher success rate in your job search
-
-So if you're going to be looking for a job at the end of your boot camp, go ahead and submit these updated items to your Career Materials Advisor (formerly Profile Coach) via BootCampSpot.
-
----
-© 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+**CSS**
+* With the CSS I began at the top, aligning the proper sections and blocks I put into place
+* I struggled with placing the links contained in the title for a very long time, eventually realizing I was only missing a closing </div> component
+* I made <var> for the colors I would be constantly using
+* Placed the titles along the side and aligned the side border
+* Struggled for a few hours on making my image grid under the Work category
+* Still working on getting the sub-text to appear on all images within the grid
+  
+  ![alt text](https://github.com/Am-White/03-homwork/blob/main/assets/images/css.png)
